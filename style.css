@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 40px 60px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* header section */
+.top-banner{
+    margin-bottom: 40px;
+    padding: 20px;
+    display: flex;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.967);
+    border-radius: 10px;
+}
+
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    color: white;
+    font-size:20px;
+    text-decoration: none;
+    background-color: #008000;
+    padding: 5px 8px;
+    border-radius: 5px;
+  animation-name: example;
+  animation-duration: 4s;
+  
+}
+@keyframes example {
+    from {background-color: #008000}
+    to {background-color: red}
+  }
+ /*--------- header end
+ -------- */
+  .side-nav{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    padding-top: 40px;
+    ;
+
+ } 
+ 
+ .button{
+    border: 1px solid lightcyan;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightcyan;
+ }
+ ul>li>a{
+    text-decoration: none;
+    color: black;
+    
+ }
+ ul>li{
+    margin-right: 20px;
+   
+ }
+
+li{
+    display:flex;
+    flex-direction: column;
+}
+ ul>li>a:hover{
+    background-color: darkred;
+ }
+ 
+ /* main sec */
+.container{
+    display: flex;
+    
+}
+
+.country{
+    display: flex;
+    text-align: center;
+
+    
+}
+.countries{
+    margin-left: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px;
+}
+.country-lists
+{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+/* footer */
+footer{  
+    height:500px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.94) ;
+     color: white;
+    text-align: center;
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+.footer-contact{
+    display: flex;
+    
+}
+.social-media{
+   font-size: 30px;
+    
+}
