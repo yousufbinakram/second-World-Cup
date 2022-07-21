@@ -114,6 +114,8 @@ footer a{
    font-size: 30px;
     
 }
+/* -----------media queries a nav ar sob alada alada vabe responsive koresi
+--------- */
 @media only screen and (max-width:688px) {
     .top-banner{
         flex-direction: column;
@@ -136,6 +138,7 @@ footer a{
     .nav{
         display: flex;
         flex-direction: row;
+        margin-bottom: 10px;
     }
     
 }
